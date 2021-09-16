@@ -14,8 +14,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="./styles/login.css" />
-    <title>Login | FPT Blog</title>
+    <link rel="stylesheet" href="./styles/register.css" />
+    <title>Đăng kí | FPT Blog</title>
   </head>
   <body>
     <header>
@@ -102,6 +102,25 @@
           </div>
           <p class="or">Hoặc</p>
           <form>
+            <div class="field_input_responsive">
+              <div class="field_input">
+                <p>Name</p>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleInputName1"
+                  aria-describedby="nameHelp"
+                />
+              </div>
+              <div class="field_input">
+                <p>Gender</p>
+                <select name="cars" id="cars" class="form-control">
+                  <option value="1">Nam</option>
+                  <option value="2">Nữ</option>
+                  <option value="3">Khác</option>
+                </select>
+              </div>
+            </div>
             <div class="field_input">
               <p>Email</p>
               <input
@@ -119,10 +138,17 @@
                 id="exampleInputPassword1"
               />
             </div>
+            <div class="field_input">
+              <p>Confirm Password</p>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Đăng kí</button>
           </form>
-          <p class="text_forgot_password">Tui quên mật khẩu</p>
         </div>
       </div>
     </section>

@@ -649,6 +649,7 @@ footer .text_footer_strong {
 
 .tag {
   display: flex;
+  padding: 0.5rem 0;
 }
 
 .main-content .tag p {
@@ -1053,4 +1054,7 @@ footer .text_footer_strong {
   .row .left-container {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 576px) {
 }
